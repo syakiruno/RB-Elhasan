@@ -1,0 +1,6 @@
+{
+  "name": "RakBuku",
+  "description": "Sistem katalogisasi dan database perpustakaan cerdas berbasis kamera smartphone dan AI oleh RB Elhasan.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
