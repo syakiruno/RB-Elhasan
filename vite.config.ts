@@ -6,6 +6,7 @@ import {defineConfig} from 'vite';
 import {VitePWA} from 'vite-plugin-pwa';
 
 export default defineConfig(() => {
+  
   return {
     plugins: [
       react(),
@@ -28,18 +29,18 @@ export default defineConfig(() => {
           theme_color: '#1B4332',
           background_color: '#FAF9F6',
           display: 'standalone',
-          start_url: '/',
-          scope: '/',
+          start_url: '/RB-Elhasan/',
+          scope: '/RB-Elhasan/',
           orientation: 'portrait-primary',
           icons: [
             {
-              src: '/pwa-192x192.png',
+              src: '/RB-Elhasan/pwa-192x192.png',
               sizes: '192x192',
               type: 'image/png',
               purpose: 'any',
             },
             {
-              src: '/pwa-512x512.png',
+              src: '/RB-Elhasan/pwa-512x512.png',
               sizes: '512x512',
               type: 'image/png',
               purpose: 'any',
